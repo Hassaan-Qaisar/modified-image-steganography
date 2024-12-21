@@ -14,7 +14,7 @@ import hashlib
 import random
 
 # Pre-shared key (16 bytes for AES-128)
-PRE_SHARED_KEY = b'your16bytekey!!'  # Replace with your secure key
+PRE_SHARED_KEY = b''  # Replace with your secure key
 
 def aes_decrypt(ciphertext, key):
     cipher = AES.new(key, AES.MODE_ECB)
